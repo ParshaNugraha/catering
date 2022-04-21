@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+/*CSS untuk bagian atas*/
+.menu{
+    border-bottom: 1px solid black;
+    text-align: right;
+}
+.menu ul{
+    list-style: none ;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #4bcffa;
+}
+.menu ul li a:hover{
+    color: rgb(35, 113, 202);
+}
+/*css untuk bagian tengah*/
+.main-content{
+    background-color: #d2dae2;
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: aliceblue;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.tbl-full{
+    width: 100%
+}
+ table tr th{
+     border-bottom: 1px solid black;  
+     padding: 1%;
+     text-align: left;
+ }
+  table tr td{
+      padding: 1%;
+  }
+  .btn-primary{
+      background-color: #7ed6df;
+      color: #130f40;
+      text-decoration: none;
+      padding: 2.1%;
+      font-weight: bold;
+  }
+  .btn-primary:hover{
+      background-color: #22a6b3;
+  }
+  .btn-kedua{
+    background-color:#5352ed;
+    color: white;
+    text-decoration: none;
+    padding: 2.1%;
+    font-weight: bold;
+}
+.btn-kedua:hover{
+    background-color: #1e90ff;
+}
+.btn-ketiga{
+    background-color:#ff7f50;
+    color: white;
+    text-decoration: none;
+    padding: 2.1%;
+    font-weight: bold;
+}
+.btn-ketiga:hover{
+    background-color: #ff4757;
+}
+.tbl-kolom{
+    width: 30%;
+}
+.sukses{
+    color: #0be881;
+}
+.gagal{
+    color: #ff4757;
+}
+/*css untuk bagian bawah*/
+.footer{
+    background-color: #706fd3;
+    color: aliceblue;
+}
+.footer a{
+    text-decoration: none;
+    color: #4bcffa;
+}
+/*css untuk login*/
+.log_in {
+    border : 1px solid gray;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
